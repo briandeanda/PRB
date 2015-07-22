@@ -1,0 +1,26 @@
+{
+  "name": "PRB",
+  "version": "1.0.0",
+  "description": "Personal Record Bank. An app to motivate you to keep running",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/briandeanda/PRB.git"
+  },
+  "keywords": [
+    "mean",
+    "running"
+  ],
+  "author": "Brian DeAnda, Arturo Lopez, Daniel Diaz",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/briandeanda/PRB/issues"
+  },
+  "homepage": "https://github.com/briandeanda/PRB",
+  "dependencies": {
+    "express": "^4.13.1"
+  }
+}
