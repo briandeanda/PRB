@@ -3,9 +3,6 @@
   "version": "1.0.0",
   "description": "Personal Record Bank. An app to motivate you to keep running",
   "main": "index.js",
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
-  },
   "repository": {
     "type": "git",
     "url": "https://github.com/briandeanda/PRB.git"
@@ -18,6 +15,9 @@
   "license": "ISC",
   "bugs": {
     "url": "https://github.com/briandeanda/PRB/issues"
+  },
+  "scripts": {
+    "jshint": "jshint --verbose *.js server/*.js"
   },
   "homepage": "https://github.com/briandeanda/PRB",
   "dependencies": {
