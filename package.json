@@ -17,15 +17,20 @@
     "url": "https://github.com/briandeanda/PRB/issues"
   },
   "scripts": {
-    "jshint": "jshint --verbose *.js server/*.js"
+    "jshint": "jshint --verbose *.js routes/*.js auth/*.js",
+    "test": "make test"
   },
   "homepage": "https://github.com/briandeanda/PRB",
   "dependencies": {
-    "express": "^4.13.1"
+    "express": "^4.13.1",
+    "passport": "^0.2.2",
+    "passport-facebook": "^2.0.0"
   },
   "devDependencies": {
     "istanbul": "^0.3.17",
     "jshint": "^2.8.0",
+    "mocha": "^2.2.5",
+    "supertest": "^1.0.1",
     "tape": "^4.0.1"
   }
 }
