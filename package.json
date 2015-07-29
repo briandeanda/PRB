@@ -18,7 +18,9 @@
   },
   "scripts": {
     "jshint": "jshint --verbose *.js routes/*.js auth/*.js",
-    "test": "make test"
+    "test": "make test",
+    "cover": "istanbul cover --print detail node_modules/.bin/_mocha",
+    "travis": "make test"
   },
   "homepage": "https://github.com/briandeanda/PRB",
   "dependencies": {
